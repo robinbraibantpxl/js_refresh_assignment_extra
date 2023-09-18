@@ -1,0 +1,48 @@
+output-calculator {
+    padding: 2rem;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+output-result {
+    padding: 2rem;
+    border: 5px solid purple;
+    height: fit-content;
+    font-size: 2rem;
+}
+
+.button {
+    background-color: white;
+    color: black;
+    border: 2px solid red;
+}
+
+.button:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+.button-primary {
+    width: 6rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.calculator {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+output-result ul {
+    list-style: none;
+}
+
+output-result ul li::before {
+    content: "\25C7";
+    color: green;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+}
