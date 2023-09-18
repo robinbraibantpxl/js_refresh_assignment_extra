@@ -5,7 +5,7 @@ Zorg ervoor dat je deze bestanden op de juiste manier aan elkaar linkt.
 
 De uitdaging zit erin dat je in deze opdracht geen gebruik maakt van de `.innerHTML` of de `.innerText` functies.
 
-1.	Maak in je HTML code, binnen de `body` tag, 2 `div` elementen aan:
+1.	Maak in je HTML code, binnen de `body` tag, een `div` element aan met daarin 2 andere elementen:
     - `output-calculator`
     - `output-result`
 
@@ -27,7 +27,7 @@ De uitdaging zit erin dat je in deze opdracht geen gebruik maakt van de `.innerH
 
     *Voorbeeld: wanneer je klikt op de button met waarde "1" en vervolgens op de button met waarde "3", gevolgd door een druk op de button met waarde "=" wordt in een ongeordende lijst een nieuw lijstitem met waarde "13" toegevoegd.* 
 
-    Ga je vervolgens weer verder met klikken op de buttons, kan je nieuwe cijfers en tonen in de lijst.
+    Ga je vervolgens weer verder met klikken op de buttons, kan je nieuwe cijfers toevoegen en tonen in de lijst.
 
 5.	De ongeordende lijst ziet er als volgt uit. Voorzie hier dus ook de nodige styling.
 
